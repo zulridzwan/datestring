@@ -1,13 +1,13 @@
-# Hasher
+# Datestring
 
-Hasher is a utility for generating hash from hash algorithms. Currently supports MD5 and SHA256.
+A CLI tool to help produce datestring based on Go language date format instead of the standard date output of Windows cmd. The default command produces today's date in yyyy-mm-dd format. It also provides a few presets for example: "datestring tomorrow" and "datestring yesterday"
 
 ## Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/zulridzwan/hasher.git
+git clone https://github.com/zulridzwan/datestring.git
 ```
 
 ## build
